@@ -16,7 +16,7 @@
           integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
           crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v2">
 </head>
 <body data-spy="scroll" data-target="#headMenu" data-offset="86">
 <div class="site-wrapper">
@@ -166,35 +166,106 @@
     </section>
     <section id="roadmap">
         <div class="container">
-            <div class="text-center">
-                <h2 data-i18n>Roadmap</h2>
+            <div class="row">
+              <div class="col-md-3 col-xs-12">
+                  <h2 data-i18n>Roadmap</h2>
+              </div>
+              <div class="col-md-9 col-xs-12 nav-roadmap">
+                <ul class="nav nav-pills float-right">
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" data-target="#roadmap-2017" href="javascript:;">2017</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" data-target="#roadmap-2018" href="javascript:;">2018</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link active" data-toggle="pill" data-target="#roadmap-2019" href="javascript:;">2019</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <ul class="list-inline list-roadmap">
-                <li class="list-inline-item">
-                    <h3 data-i18n="alphaTestDate">Sep 7, 2017</h3>
-                    <p data-i18n>Alpha test - completed</p>
-                </li>
-                <li class="list-inline-item">
-                    <h3 data-i18n="betaTestDate">Oct 1, 2017</h3>
-                    <p data-i18n>Beta test - completed</p>
-                </li>
-                <li class="list-inline-item">
-                    <h3 data-i18n="RCTestDate">Nov 5, 2017</h3>
-                    <p data-i18n>RC test - completed</p>
-                </li>
-                <li class="list-inline-item">
-                    <h3 data-i18n="firstReleaseDate">Jan 20, 2018</h3>
-                    <p data-i18n="[html]roadmapFirstReleaseCompleted">First release with Semux <br>BFT consensus - completed</p>
-                </li>
-                <li class="list-inline-item">
-                    <h3>Q4 2018</h3>
-                    <p data-i18n="[html]roadmapSecondRelease">Second release with <br>Semux virtual machine</p>
-                </li>
-                <li class="list-inline-item">
-                    <h3>Q2 2019</h3>
-                    <p data-i18n="[html]roadmapThirdRelease">Third release with Semux <br>decentralized application</p>
-                </li>
-            </ul>
+            <div class="tab-content roadmap-content">
+              <div class="tab-pane container" id="roadmap-2017">
+                <ul class="list-inline list-roadmap">
+                    <li class="list-inline-item">
+                        <h3>Q1-Q3 2017</h3>
+                        <p><b>Semux Core 1.0 development</b> - completed</p>
+                    </li>
+                    <li class="list-inline-item">
+                        <h3>Q3 2017</h3>
+                        <p><b>Alpha test</b> - completed in Testnet</p>
+                    </li>
+                    <li class="list-inline-item">
+                        <h3>Q3 2017</h3>
+                        <p><b>Beta test</b> - completed in Testnet</p>
+                    </li>
+                    <li class="list-inline-item">
+                        <h3>Q4 2017</h3>
+                        <p><b>RC test</b> - completed in Testnet</p>
+                    </li>
+                    <li class="list-inline-item">
+                        <h3>Q4 2017</h3>
+                        <p><b>Airdrop</b> - completed</p>
+                    </li>
+                </ul>
+              </div>
+              <div class="tab-pane container" id="roadmap-2018">
+                <ul class="list-inline list-roadmap">
+                    <li class="list-inline-item">
+                        <h3>Jan 20, 2018</h3>
+                        <p><b>Semux mainnet launch</b> - completed</p>
+                    </li>
+                    <li class="list-inline-item">
+                        <h3>Q1 2018</h3>
+                        <p><b>Opensource BFT-pool software</b> - completed</p>
+                    </li>
+                    <li class="list-inline-item">
+                        <h3>Q2 2018</h3>
+                        <p><b>Exchange listings</b> - completed (STEX)</p>
+                    </li>
+                    <li class="list-inline-item">
+                        <h3>May 2018</h3>
+                        <p><b>Semux JS and PHP libraries</b> - completed</p>
+                    </li>
+                    <li class="list-inline-item">
+                        <h3>August 2018</h3>
+                        <p><b>Fast syncing feature</b> - completed</p>
+                    </li>
+                    <li class="list-inline-item">
+                        <h3>Q4 2018</h3>
+                        <p><b>Virtual Machine and HD wallets</b> - completed in Testnet</p>
+                    </li>
+                </ul>
+              </div>
+              <div class="tab-pane container active" id="roadmap-2019">
+                <ul class="list-inline list-roadmap">
+                    <li class="list-inline-item">
+                        <h3>Q1 2019</h3>
+                        <p><b>Semux 2.0 with VM</b></p>
+                    </li>
+                    <li class="list-inline-item">
+                        <h3>Q2 2019</h3>
+                        <p><b>Semux Voyager - cross-plarform light GUI</b></p>
+                    </li>
+                    <li class="list-inline-item">
+                        <h3>Q2 2019</h3>
+                        <p><b>Semux Developer Program</b></p>
+                    </li>
+                    <li class="list-inline-item">
+                        <h3>Q3 2019</h3>
+                        <p><b>Semux Android/iOS clients</b></p>
+                    </li>
+                    <li class="list-inline-item">
+                        <h3>Q4 2019</h3>
+                        <p><b>Enhanced Privacy</b></p>
+                    </li>
+                    <li class="list-inline-item">
+                        <h3>Q4 2019</h3>
+                        <p><b>Semux 3.0 with improved scalability, reduced blockchain size</b></p>
+                    </li>
+                </ul>
+              </div>
+            </div>
         </div>
         <img class="left-element" src="img/graph%20elements%20left@1x.svg" alt="Left graphical element"/>
         <img class="right-element" src="img/graph%20elements%20right@1x.svg" alt="Right graphical element"/>
@@ -398,7 +469,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-6 copyright">
-                    &copy; 2017-2018 The Semux Developers
+                    &copy; 2017-2019 The Semux Developers
                 </div>
                 <div class="col-xs-12 col-md-6 text-right">
                     <ul class="list-inline list-social">
