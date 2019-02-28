@@ -167,6 +167,21 @@ h3,
   font-size: 16px;
   line-height: 21px;
 }
+.nav-roadmap {
+  padding-top: 10px;
+}
+.nav-roadmap .nav-pills .nav-link.active {
+    color: #fff;
+    background-color: #3b3c69;
+}
+section .nav-roadmap li a {
+  color: #3c3b6c;
+  font-weight: bold;
+}
+.tab-content.roadmap-content {
+  border-top: 1px solid #f4f9fe;
+  padding-top: 30px;
+}
 .list-roadmap {
   text-align: center;
 }
@@ -196,7 +211,10 @@ h3,
   font-size: 14px;
   font-weight: 300;
   line-height: 17px;
-  height: 34px;
+  height: 45px;
+}
+.list-roadmap > li p {
+  color: #3c3b6c;
 }
 .list-roadmap > li:first-child {
   width: 196px;
@@ -685,6 +703,15 @@ header {
   }
 }
 @media (max-width: 767px) {
+  .nav-roadmap {
+    display: none;
+  }
+  #roadmap h2 {
+    text-align: center;
+  }
+  .tab-content.roadmap-content {
+    border: none;
+  }
   .list-roadmap > li {
     width: calc((100% / 2) - 5px);
   }
@@ -709,6 +736,15 @@ header {
   }
 }
 @media (max-width: 575px) {
+  .nav-roadmap {
+    display: none;
+  }
+  #roadmap h2 {
+    text-align: center;
+  }
+  .tab-content.roadmap-content {
+    border: none;
+  }
   .list-features {
     margin: 0;
   }
