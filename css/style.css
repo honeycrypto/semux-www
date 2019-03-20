@@ -596,6 +596,19 @@ footer .copyright {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+footer a.email {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+footer img.discord {
+  width: 24px;
+  margin-top: -5px;
+}
+footer img.medium {
+  width: 18px;
+  margin-top: -6px;
+}
 body.header-fixed .site-wrapper header {
   background: url('../img/Background.png') no-repeat 50% 0;
   background-size: cover;

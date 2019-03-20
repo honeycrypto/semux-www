@@ -16,7 +16,7 @@
           integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
           crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css?v2">
+    <link rel="stylesheet" href="css/style.css?v3">
 </head>
 <body data-spy="scroll" data-target="#headMenu" data-offset="86">
 <div class="site-wrapper">
@@ -249,7 +249,7 @@
                     </li>
                     <li class="list-inline-item">
                         <h3>Q2 2019</h3>
-                        <p><b>Semux Voyager: cross-plarform light GUI</b></p>
+                        <p><b>Semux Voyager: cross-platform light GUI</b></p>
                     </li>
                     <li class="list-inline-item">
                         <h3>Q2-Q3 2019</h3>
@@ -475,21 +475,41 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-6 copyright">
-                    &copy; 2017-2019 The Semux Developers
+                    <div>&copy; 2017-2019 The Semux Developers</div>
+                    <div>Development: <a href="mailto:dev@semux.org" class="email">dev@semux.org</a></div>
+                    <div>Partnership & Listings: <a href="mailto:partnership@semux.org" class="email">partnership@semux.org</a></div>
                 </div>
                 <div class="col-xs-12 col-md-6 text-right">
                     <ul class="list-inline list-social">
                         <li class="list-inline-item">
-                            <a href="https://github.com/semuxproject/semux-core" target="_blank" title="GitHub"><i class="ion-social-github"></i></a>
+                            <a href="https://github.com/semuxproject/semux-core" target="_blank" title="GitHub" data-toggle="tooltip">
+                              <i class="ion-social-github"></i>
+                            </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://twitter.com/semuxproject" target="_blank" title="Twitter"><i class="ion-social-twitter"></i></a>
+                            <a href="https://twitter.com/semuxproject" target="_blank" title="Twitter" data-toggle="tooltip">
+                              <i class="ion-social-twitter"></i>
+                            </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://discord.gg/qQVckKZ" target="_blank" title="Message"><i class="ion-ios-chatboxes-outline"></i></a>
+                            <a href="https://discord.gg/qQVckKZ" target="_blank" title="Discord" data-toggle="tooltip">
+                              <img src="img/discord.png" class="discord">
+                            </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://t.me/semuxproject" target="_blank" title="Telegram"><i class="ion-paper-airplane"/></i></a>
+                            <a href="https://t.me/semuxproject" target="_blank" title="Telegram" data-toggle="tooltip">
+                              <i class="ion-paper-airplane"/></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.reddit.com/r/Semux/" target="_blank" title="Reddit" data-toggle="tooltip">
+                              <i class="ion-social-reddit"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://medium.com/semux" target="_blank" title="Blog on Medium" data-toggle="tooltip">
+                              <img src="img/medium.png" class="medium">
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -542,6 +562,7 @@
         $(document).on('click', '#mobileOverlay, #headMenu .nav-link', function (e) {
             $('#headMenu').collapse('hide');
         });
+        $('[data-toggle="tooltip"]').tooltip();
     });
 </script>
 </body>
