@@ -109,7 +109,7 @@ h3,
   z-index: 5;
 }
 .list-social > li {
-  margin: 0 11px;
+  margin: 10px;
 }
 .list-social > li > a {
   position: relative;
@@ -324,7 +324,7 @@ section#home .row {
   z-index: 5;
 }
 section#home .row h1 {
-  margin: 42px 0 27px;
+  margin: 50px 0 40px;
   color: #fff;
 }
 section#home .row p {
