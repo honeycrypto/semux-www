@@ -16,7 +16,7 @@
           integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
           crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css?v3">
+    <link rel="stylesheet" href="css/style.css?v4">
 </head>
 <body data-spy="scroll" data-target="#headMenu" data-offset="86">
 <div class="site-wrapper">
@@ -106,7 +106,7 @@
                 <div class="col-xs-12 col-md-12 col-lg-12 content">
                     <h2>What is Semux?</h2>
                     <p>
-                      <b>Semux</b> is a decentralized application platform, powered by the Semux BFT consensus engine. It's fast, robust and powerful. 
+                      <b>Semux</b> is a decentralized application platform, powered by the Semux BFT consensus engine. It's fast, robust and powerful.
                       <br class="visible">
                       <a href="https://github.com/semuxproject/semux-core/blob/master/docs" target="_blank">
                         >> Read more from the Docs
@@ -194,106 +194,193 @@
     <section id="roadmap">
         <div class="container">
             <div class="row">
-              <div class="col-md-3 col-xs-12">
-                  <h2>Roadmap</h2>
-              </div>
-              <div class="col-md-9 col-xs-12 nav-roadmap">
-                <ul class="nav nav-pills float-right">
-                  <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" data-target="#roadmap-2017" href="javascript:;">2017</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" data-target="#roadmap-2018" href="javascript:;">2018</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link active" data-toggle="pill" data-target="#roadmap-2019" href="javascript:;">2019</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" data-toggle="pill" data-target="#roadmap-2020" href="javascript:;">2020</a>
-                  </li>
-                </ul>
+              <div class="col-md-12 col-xs-12">
+                  <h2 class="no-margin-bottom">Roadmap</h2>
+                  <p class="roadmap-notice">* roadmap items and timing are subject to change.</p>
               </div>
             </div>
             <div class="tab-content roadmap-content">
-              <div class="tab-pane container" id="roadmap-2017">
-                <ul class="list-inline list-roadmap">
-                    <li class="list-inline-item">
-                        <h3>Q1-Q3 2017</h3>
-                        <p><b>Semux Core 1.0 development</b> - completed</p>
-                    </li>
-                    <li class="list-inline-item">
-                        <h3>Q3 2017</h3>
-                        <p><b>Alpha test</b> - completed in Testnet</p>
-                    </li>
-                    <li class="list-inline-item">
-                        <h3>Q3 2017</h3>
-                        <p><b>Beta test</b> - completed in Testnet</p>
-                    </li>
-                    <li class="list-inline-item">
-                        <h3>Q4 2017</h3>
-                        <p><b>RC test</b> - completed in Testnet</p>
-                    </li>
-                    <li class="list-inline-item">
-                        <h3>Q4 2017</h3>
-                        <p><b>Airdrop</b> - completed</p>
-                    </li>
-                </ul>
+
+              <div class="card no-border">
+                <div class="card-header roadmap-card-header bg-grey">
+                  <div class="roadmap-header-content">Milestone</div>
+                  <div class="">Date</div>
+                </div>
               </div>
-              <div class="tab-pane container" id="roadmap-2018">
-                <ul class="list-inline list-roadmap">
-                    <li class="list-inline-item">
-                        <h3>Jan 20, 2018</h3>
-                        <p><b>Semux mainnet launch</b> - completed</p>
-                    </li>
-                    <li class="list-inline-item">
-                        <h3>Q1 2018</h3>
-                        <p><b>Opensource staking pool software</b> - completed</p>
-                    </li>
-                    <li class="list-inline-item">
-                        <h3>Q2 2018</h3>
-                        <p><b>Exchange listings (STEX)</b> - completed</p>
-                    </li>
-                    <li class="list-inline-item">
-                        <h3>May 2018</h3>
-                        <p><b>Semux JS library</b> - completed</p>
-                    </li>
-                    <li class="list-inline-item">
-                        <h3>Q4 2018</h3>
-                        <p><b>Virtual machine and HD wallet</b> - completed in Testnet</p>
-                    </li>
-                </ul>
+              <div class="card roadmap-card">
+                <div class="card-header roadmap-card-header" data-toggle="collapse" data-target="#roadmap-item-1">
+                  <div class="roadmap-header-content">
+                    <i class="ion-checkmark"></i>
+                    Development: Semux Core 1.0
+                  </div>
+                  <div>2017</div>
+                </div>
+                <div class="card-body collapse multi-collapse" id="roadmap-item-1">
+                  <p>First release of Semux Core software with Semux BFT consensus, draft specifications, public testing including alpha test, beta test and various Release Candidate networks.</p>
+                </div>
               </div>
-              <div class="tab-pane container active" id="roadmap-2019">
-                <ul class="list-inline list-roadmap">
-                    <li class="list-inline-item">
-                        <h3>Q3 2019</h3>
-                        <p><b>Semux Core 2.0 (Virtual Machine)</b> - August 25</p>
-                    </li>
-                    <li class="list-inline-item">
-                        <h3>Q3 2019</h3>
-                        <p><b>Public Dev Program: consumer apps</b></p>
-                    </li>
-                    <li class="list-inline-item">
-                        <h3>Q4 2019</h3>
-                        <p><b>VM tooling and documentation</b></p>
-                    </li>
-                </ul>
+              <div class="card roadmap-card">
+                <div class="card-header roadmap-card-header" data-toggle="collapse" data-target="#roadmap-item-2">
+                  <div class="roadmap-header-content">
+                    <i class="ion-checkmark"></i>
+                    Airdrop
+                  </div>
+                  <div>Q4 2017</div>
+                </div>
+                <div class="card-body collapse multi-collapse" id="roadmap-item-2">
+                  <p>Free Airdrop accomplished several things for the project: enlarged the Semux network and pre-seeded it with validators for Mainnet, helped to decentralize the initial distribution of SEM coins, and distributed coins into the hands of people who are interested in participating in the project.</p>
+                </div>
               </div>
-              <div class="tab-pane container" id="roadmap-2020">
-                <ul class="list-inline list-roadmap">
-                    <li class="list-inline-item">
-                        <h3>Q1-Q2 2020</h3>
-                        <p><b>Chrome browser extension</b></p>
-                    </li>
-                    <li class="list-inline-item">
-                        <h3>Q1-Q2 2020</h3>
-                        <p><b>Mobile wallets</b></p>
-                    </li>
-                    <li class="list-inline-item">
-                        <h3>Q3 2020</h3>
-                        <p><b>Semux Core 3.0 (On-chain Governance)</b></p>
-                    </li>
-                </ul>
+              <div class="card roadmap-card">
+                <div class="card-header roadmap-card-header" data-toggle="collapse" data-target="#roadmap-item-3">
+                  <div class="roadmap-header-content">
+                    <i class="ion-checkmark"></i>
+                    Main Network Launch
+                  </div>
+                  <div>January 20, 2018</div>
+                </div>
+                <div class="card-body collapse multi-collapse" id="roadmap-item-3">
+                  <p>Semux Core 1.0 codebase has been finalised and the network was successfully launched.</p>
+                </div>
+              </div>
+              <div class="card roadmap-card">
+                <div class="card-header roadmap-card-header" data-toggle="collapse" data-target="#roadmap-item-4">
+                  <div class="roadmap-header-content">
+                    <i class="ion-checkmark"></i>
+                    Development: Staking pool software
+                  </div>
+                  <div>Q1 2018</div>
+                </div>
+                <div class="card-body collapse multi-collapse" id="roadmap-item-4">
+                  <p>A pool allows a group of people who do not have enough SEM to join their votes to have enough voting power to create new blocks as validators.</p>
+                </div>
+              </div>
+              <div class="card roadmap-card">
+                <div class="card-header roadmap-card-header" data-toggle="collapse" data-target="#roadmap-item-5">
+                  <div class="roadmap-header-content">
+                    <i class="ion-checkmark"></i>
+                    Exchange Listings
+                  </div>
+                  <div>Q2 2018</div>
+                </div>
+                <div class="card-body collapse multi-collapse" id="roadmap-item-5">
+                  <p>SEM is the native cryptocurrency of Semux network. It has 3 main use cases: it used in governance and BFT consensus algorithm (voting for delegates); it is a fuel for running decentralised apps; it is a store of value and mean of payment.
+                    <br><br>
+                    In 2018 it was listed in STEX exchange. And as of 2019, SEM is trading in 4 different exchanges: Stex, Citex, Tokok and p2pb2b.
+                  </p>
+                </div>
+              </div>
+              <div class="card roadmap-card">
+                <div class="card-header roadmap-card-header" data-toggle="collapse" data-target="#roadmap-item-6">
+                  <div class="roadmap-header-content">
+                    <i class="ion-checkmark"></i>
+                    Development: Semux JS SDK
+                  </div>
+                  <div>May 2018</div>
+                </div>
+                <div class="card-body collapse multi-collapse" id="roadmap-item-6">
+                  <p>Semux JS SDK allows to securely interact with Semux blockchain and thus build both client/browser and server side applications. It's supported in Node.js and most modern browsers.</p>
+                </div>
+              </div>
+              <div class="card roadmap-card">
+                <div class="card-header roadmap-card-header" data-toggle="collapse" data-target="#roadmap-item-7">
+                  <div class="roadmap-header-content">
+                    <i class="ion-checkmark"></i>
+                    Development: Virtual machine and HD wallet - Testnet
+                  </div>
+                  <div>Q4 2018</div>
+                </div>
+                <div class="card-body collapse multi-collapse" id="roadmap-item-7">
+                  <p>In December 2018 the virtual machine has been successfully activated in Testnet enabling smart contracts in Solidity. Same release featured HD-wallets.</p>
+                </div>
+              </div>
+              <div class="card roadmap-card">
+                <div class="card-header roadmap-card-header" data-toggle="collapse" data-target="#roadmap-item-8">
+                  <div class="roadmap-header-content">
+                    <i class="ion-checkmark"></i>
+                    Development: Semux Core 2.0
+                  </div>
+                  <div>August 2019</div>
+                </div>
+                <div class="card-body collapse multi-collapse" id="roadmap-item-8">
+                  <p>Semux 2.0 features Virtual Machine, which has been successfully activated in the block #1,640,591, HD-wallets and FAST_SYNC protocol.</p>
+                </div>
+              </div>
+              <div class="card roadmap-card">
+                <div class="card-header roadmap-card-header" data-toggle="collapse" data-target="#roadmap-item-9" aria-expanded="true">
+                  <div class="roadmap-header-content">
+                    <i class="ion-ios-time-outline"></i>
+                    Development: Web3 support
+                  </div>
+                  <div>future</div>
+                </div>
+                <div class="card-body collapse multi-collapse show" id="roadmap-item-9">
+                  <p>This will allow to use existing toolset and simplify the frontend development for Dapps.</p>
+                </div>
+              </div>
+              <div class="card roadmap-card">
+                <div class="card-header roadmap-card-header" data-toggle="collapse" data-target="#roadmap-item-10">
+                  <div class="roadmap-header-content">
+                    <i class="ion-ios-time-outline"></i>
+                    Development: Browser extensions
+                  </div>
+                  <div>future</div>
+                </div>
+                <div class="card-body collapse multi-collapse show" id="roadmap-item-10">
+                  <p>Semux Keeper is an extension that allows users to securely interact with Semux-enabled web services from the browser. Private keys are encrypted and stored within the extension and cannot be accessed by online dApps and services, making sure that users' funds are protected from malicious websites.</p>
+                </div>
+              </div>
+              <div class="card roadmap-card">
+                <div class="card-header roadmap-card-header" data-toggle="collapse" data-target="#roadmap-item-11">
+                  <div class="roadmap-header-content">
+                    <i class="ion-ios-time-outline"></i>
+                    Development: Semux light desktop wallet
+                  </div>
+                  <div>future</div>
+                </div>
+                <div class="card-body collapse multi-collapse show" id="roadmap-item-11">
+                  <p>Light cross-platform wallet to speed up onboarding of new SEM users without the need to download heavy blockchain unless they are validators.</p>
+                </div>
+              </div>
+              <div class="card roadmap-card">
+                <div class="card-header roadmap-card-header" data-toggle="collapse" data-target="#roadmap-item-12">
+                  <div class="roadmap-header-content">
+                    <i class="ion-ios-time-outline"></i>
+                    Development: Semux mobile wallets
+                  </div>
+                  <div>future</div>
+                </div>
+                <div class="card-body collapse multi-collapse show" id="roadmap-item-12">
+                  <p>Light SEM wallets to allow voting and SEM transfers from Android and iOS devices.</p>
+                </div>
+              </div>
+              <div class="card roadmap-card">
+                <div class="card-header roadmap-card-header" data-toggle="collapse" data-target="#roadmap-item-13">
+                  <div class="roadmap-header-content">
+                    <i class="ion-ios-time-outline"></i>
+                    Semux Developer Program
+                  </div>
+                  <div>future</div>
+                </div>
+                <div class="card-body collapse multi-collapse show" id="roadmap-item-13">
+                  <p>Public bounty program to incentivize development of new consumer-oriented apps on top of Semux platform.</p>
+                </div>
+              </div>
+              <div class="card roadmap-card">
+                <div class="card-header roadmap-card-header" data-toggle="collapse" data-target="#roadmap-item-14">
+                  <div class="roadmap-header-content">
+                    <i class="ion-ios-time-outline"></i>
+                    Development: Semux Core 3.0
+                  </div>
+                  <div>future</div>
+                </div>
+                <div class="card-body collapse multi-collapse show" id="roadmap-item-14">
+                  <p>
+                    This release features on-chain governance and DAOs with decentralized control of funds as their basis.
+                    <br>
+                    Further governance of the network and upgrades to the software or blockchain state are left to the community.
+                  </p>
+                </div>
               </div>
             </div>
         </div>
