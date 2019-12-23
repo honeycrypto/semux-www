@@ -764,6 +764,9 @@ header {
   .nav-roadmap {
     display: none;
   }
+  .date-roadmap {
+    display: none;
+  }
   #roadmap h2 {
     text-align: center;
   }
@@ -795,6 +798,9 @@ header {
 }
 @media (max-width: 575px) {
   .nav-roadmap {
+    display: none;
+  }
+  .date-roadmap {
     display: none;
   }
   #roadmap h2 {
