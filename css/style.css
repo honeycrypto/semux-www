@@ -65,6 +65,15 @@ h3,
   font-weight: bold;
   line-height: 31px;
 }
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+.no-border {
+  border: none;
+}
+.card .card-header.bg-grey {
+  background: #f1f2f6 !important;
+}
 .btn.btn-danger {
   padding: 15px 24px;
   width: 256px;
@@ -242,6 +251,42 @@ section .nav-roadmap li a {
 .list-roadmap > li:nth-child(even):before {
   top: 64px;
 }
+/* New roadmap layout */
+.roadmap-notice {
+  color: #656565;
+  font-weight: 300;
+}
+.roadmap-card {
+  margin-top: 20px;
+  border-color: #f1f2f6;
+}
+.roadmap-card-header {
+  cursor: pointer;
+  background: none;
+  border-radius: 0;
+  font-size: 20px;
+  font-weight: 300;
+  display: flex;
+  border-color: #f1f2f6;
+}
+.roadmap-header-content {
+  flex: 1;
+}
+.roadmap-header-content i.ion-checkmark {
+  color: #4acf4a;
+  font-size: 18px;
+  padding-right: 10px;
+}
+.roadmap-header-content i.ion-ios-time-outline {
+  color: #3073c7;
+  font-size: 20px;
+  padding-right: 10px;
+}
+.roadmap-card .card-body {
+  font-weight: 300;
+  font-size: 18px;
+}
+/* end of new roadmap layout */
 .site-wrapper {
   padding-top: 134px;
   width: 100%;
@@ -507,7 +552,7 @@ section#roadmap .container {
   z-index: 5;
 }
 section#roadmap .container h2 {
-  margin-bottom: 36px;
+  margin-bottom: 0;
 }
 section#faq {
   padding: 45px 0 3px;
